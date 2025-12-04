@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-func main() {
+func day3Part1() {
 
 	content, err := os.ReadFile("input.txt");
 
@@ -35,7 +35,7 @@ func main() {
 				second = 0;
 				continue;
 			}
-			
+
 			if num > second {
 				second = num;
 			}
